@@ -1,0 +1,45 @@
+<VRTDataset rasterXSize="4096" rasterYSize="227">
+  <SRS>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -1.7999999999999997e+02,  8.7890625000000000e-02,  0.0000000000000000e+00,  8.9105113636363640e+01,  0.0000000000000000e+00, -1.2784090909090909e-01</GeoTransform>
+  <Metadata>
+    <MDI key="AREA_OR_POINT">Area</MDI>
+    <MDI key="TIFFTAG_DATETIME">2017:04:27 10:24:36</MDI>
+    <MDI key="TIFFTAG_RESOLUTIONUNIT">2 (pixels/inch)</MDI>
+    <MDI key="TIFFTAG_SOFTWARE">Flying Meat Acorn 5.6.4</MDI>
+    <MDI key="TIFFTAG_XRESOLUTION">72</MDI>
+    <MDI key="TIFFTAG_YRESOLUTION">72</MDI>
+  </Metadata>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+  </Metadata>
+  <VRTRasterBand dataType="Byte" band="1">
+    <ColorInterp>Red</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">zelda-overworld-map.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4096" RasterYSize="1408" DataType="Byte" BlockXSize="4096" BlockYSize="10" />
+      <SrcRect xOff="0" yOff="7" xSize="4096" ySize="227" />
+      <DstRect xOff="0" yOff="0" xSize="4096" ySize="227" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <ColorInterp>Green</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">zelda-overworld-map.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4096" RasterYSize="1408" DataType="Byte" BlockXSize="4096" BlockYSize="10" />
+      <SrcRect xOff="0" yOff="7" xSize="4096" ySize="227" />
+      <DstRect xOff="0" yOff="0" xSize="4096" ySize="227" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <ColorInterp>Blue</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">zelda-overworld-map.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4096" RasterYSize="1408" DataType="Byte" BlockXSize="4096" BlockYSize="10" />
+      <SrcRect xOff="0" yOff="7" xSize="4096" ySize="227" />
+      <DstRect xOff="0" yOff="0" xSize="4096" ySize="227" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>

@@ -1,0 +1,32 @@
+<html>
+<meta charset="utf-8">
+<head>
+  <title>Hyrule projections via GDAL</title>
+  <link rel="stylesheet" href="app.css"></link>
+</head>
+
+<body>
+
+<section>
+    Assuming the <a href="http://www.oldgames.sk/en/game/legend-of-zelda/download/9339/">NES view of Hyrule</a> is <a href="https://en.wikipedia.org/wiki/Equirectangular_projection">plate carrée</a>, how might it look under other projections? Fortunately, <a href="https://medium.com/planet-stories/a-gentle-introduction-to-gdal-part-2-map-projections-gdalwarp-e05173bd710a">GDAL</a> has provided us with answers:
+</section>
+<ul>
+  <li>
+    <a href="zelda-overworld-mercator.png">Mercator</a>
+  </li>
+  <li>
+    <a href="zelda-overworld-mollweide.png">Mollweide</a>
+  </li>
+  <li>
+    <a href="zelda-overworld-map-sh60-polarstereo-south.png">South pole</a>
+  </li>
+  <li>
+    <a href="zelda-overworld-map-sh60-polarstereo-north.png">North pole</a>
+  </li>
+</ul>
+<section>
+  <a href="https://github.com/jimkang/gdal-zelda">More details about how these are built.</a>
+</section>
+
+</body>
+</html>
