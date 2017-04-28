@@ -6,6 +6,7 @@ body {
   align-items: center;
   color: hsl(45, 15%, 15%);
   background-color: hsl(45, 10%, 90%);
+  margin: 2em;
 }
 
 ul {
