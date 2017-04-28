@@ -17,9 +17,9 @@ ul {
 
 a:link {
   text-decoration: none;
-  color: #79ce23;
+  color: hsl(90, 61%, 42%);
 }
 
 a:visited {
-  color: #79ce23;
+  color: hsl(90, 61%, 42%);
 }
