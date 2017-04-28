@@ -1,17 +1,25 @@
 body {
-  font-family: 'Helvetica Neue';
-  font-size: 18px;
+  font-family: futura, 'Helvetica Neue';
+  font-size: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  color: hsl(45, 15%, 15%);
+  background-color: hsl(45, 10%, 90%);
 }
 
 ul {
   list-style-type: none;
   padding-left: 0;
+  flex-direction: column;
+  align-items: center;
 }
 
 a:link {
   text-decoration: none;
+  color: #79ce23;
+}
+
+a:visited {
+  color: #79ce23;
 }
